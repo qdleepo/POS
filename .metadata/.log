@@ -1,0 +1,1157 @@
+!SESSION 2020-01-10 14:58:40.601 -----------------------------------------------
+eclipse.buildId=@buildId@
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2020-01-10 14:58:49.435
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 14:58:49.435
+!MESSAGE A conflict occurred for F9:
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19db855,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
+		Rebuild the last make target for the selected container or project.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@102d0ed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 14:58:51.487
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 14:58:51.519
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 14:58:51.523
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ingenico.ingedev.analyzer.tools.provider 0 0 2020-01-10 14:58:51.570
+!MESSAGE Evaluating extension
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-01-10 14:58:51.769
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\smburu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:11.204
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:11.617
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.096
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.097
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.102
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.102
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.106
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.106
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.110
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.110
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.114
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.114
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.118
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.118
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.122
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.122
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.126
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.126
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.130
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.130
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.134
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.134
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.138
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.138
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.142
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.142
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.146
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.146
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.151
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.151
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.155
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.155
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.159
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.159
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.163
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.163
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.166
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.167
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.171
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.171
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.174
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.175
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.179
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.179
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.183
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.183
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.187
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.187
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.191
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.191
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.195
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.195
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.199
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.199
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.203
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.203
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.207
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.207
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.211
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.211
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.215
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.215
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.219
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.219
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.224
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.224
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.228
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.228
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.232
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.232
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.236
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.236
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY com.ingenico.ingedev.telium.core 4 4 2020-01-10 14:59:15.240
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: '' build configuration does not exist in 'BSE_APP_v3' project.
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumConfigsDescriptor.getConfig(TeliumConfigsDescriptor.java:72)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getConfig(TeliumProjectContentDescriptor.java:101)
+	at com.ingenico.ingedev.telium.internal.core.project.descriptor.TeliumProjectContentDescriptor.getActiveConfig(TeliumProjectContentDescriptor.java:172)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.setResourceContext(TeliumScannerInfo.java:281)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfo.<init>(TeliumScannerInfo.java:65)
+	at com.ingenico.ingedev.telium.core.TeliumScannerInfoProvider.getScannerInformation(TeliumScannerInfoProvider.java:48)
+	at org.eclipse.cdt.internal.core.language.settings.providers.ScannerInfoExtensionLanguageSettingsProvider.getSettingEntries(ScannerInfoExtensionLanguageSettingsProvider.java:44)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:181)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:104)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:377)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:311)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 com.ingenico.ingedev.telium.core 4 -1 2020-01-10 14:59:15.240
+!MESSAGE '' build configuration does not exist in 'BSE_APP_v3' project.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 14:59:19.519
+!MESSAGE Indexed 'BSE_APP_v3' (118 sources, 193 headers) in 3.5 sec: 21,926 declarations; 92,457 references; 316 unresolved inclusions; 699 syntax errors; 21,888 unresolved names (16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 15:04:22.819
+!MESSAGE Indexed 'BSE_APP_v3' (118 sources, 750 headers) in 10.3 sec: 49,658 declarations; 132,607 references; 5 unresolved inclusions; 712 syntax errors; 74 unresolved names (0.041%)
+!SESSION 2020-01-10 15:11:22.714 -----------------------------------------------
+eclipse.buildId=@buildId@
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2020-01-10 15:11:28.895
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 15:11:28.895
+!MESSAGE A conflict occurred for F9:
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bc47c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
+		Rebuild the last make target for the selected container or project.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15e7fe7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 15:11:40.647
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 15:11:40.655
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 15:11:40.662
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ingenico.ingedev.analyzer.tools.provider 0 0 2020-01-10 15:11:40.887
+!MESSAGE Evaluating extension
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-01-10 15:11:41.192
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\smburu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 15:13:26.534
+!MESSAGE Indexed 'BSE_APP_v3' (118 sources, 750 headers) in 11.7 sec: 49,658 declarations; 132,607 references; 5 unresolved inclusions; 712 syntax errors; 74 unresolved names (0.041%)
+!SESSION 2020-01-10 15:20:26.952 -----------------------------------------------
+eclipse.buildId=@buildId@
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data file:/C:/Users/smburu/Desktop/BSE_APP_all/
+
+!ENTRY org.eclipse.jface 2 0 2020-01-10 15:20:30.899
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 15:20:30.899
+!MESSAGE A conflict occurred for F9:
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14c66c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
+		Rebuild the last make target for the selected container or project.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e657b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 15:20:35.065
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 15:20:35.072
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 15:20:35.081
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ingenico.ingedev.analyzer.tools.provider 0 0 2020-01-10 15:20:35.158
+!MESSAGE Evaluating extension
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-01-10 15:20:35.774
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\smburu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 15:31:25.129
+!MESSAGE Indexed 'BSE_APP_v3' (118 sources, 750 headers) in 6.8 sec: 49,658 declarations; 132,607 references; 5 unresolved inclusions; 712 syntax errors; 74 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 15:32:42.722
+!MESSAGE Indexed 'BSE_APP_v3' (118 sources, 750 headers) in 6.97 sec: 49,658 declarations; 132,607 references; 5 unresolved inclusions; 712 syntax errors; 74 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 15:33:21.595
+!MESSAGE Indexed 'BSE_APP_v3' (118 sources, 750 headers) in 6.52 sec: 49,658 declarations; 132,607 references; 5 unresolved inclusions; 712 syntax errors; 74 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 15:33:30.950
+!MESSAGE Indexed 'BSE_APP_v3' (118 sources, 750 headers) in 6.56 sec: 49,658 declarations; 132,607 references; 5 unresolved inclusions; 712 syntax errors; 74 unresolved names (0.041%)
+!SESSION 2020-01-10 15:36:58.626 -----------------------------------------------
+eclipse.buildId=@buildId@
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data file:/C:/Users/smburu/Desktop/BSE_APP_all/
+
+!ENTRY org.eclipse.jface 2 0 2020-01-10 15:37:00.918
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 15:37:00.918
+!MESSAGE A conflict occurred for F9:
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b5390,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
+		Rebuild the last make target for the selected container or project.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1831016,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 15:37:04.342
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 15:37:04.349
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 15:37:04.355
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ingenico.ingedev.analyzer.tools.provider 0 0 2020-01-10 15:37:04.440
+!MESSAGE Evaluating extension
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-01-10 15:37:05.207
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\smburu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-01-10 17:10:49.207 -----------------------------------------------
+eclipse.buildId=@buildId@
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data file:/C:/Users/smburu/Desktop/BSE_APP_all/
+
+!ENTRY org.eclipse.jface 2 0 2020-01-10 17:10:51.716
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 17:10:51.716
+!MESSAGE A conflict occurred for F9:
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.ant.ui.antShortcut.run,Run Ant Build,
+		Run Ant Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1eaef6a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F9,
+	ParameterizedCommand(Command(org.eclipse.cdt.make.ui.targetBuildLastCommand,Rebuild Last Target,
+		Rebuild the last make target for the selected container or project.,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3692ca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 17:10:57.230
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 17:10:57.238
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-01-10 17:10:57.249
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ingenico.ingedev.analyzer.tools.provider 0 0 2020-01-10 17:10:57.584
+!MESSAGE Evaluating extension
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-01-10 17:10:57.799
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\smburu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
